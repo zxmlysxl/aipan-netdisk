@@ -28,7 +28,7 @@
 
 [Vercel部署文档](/README_VERCEL.md)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/unilei/aipan-netdisk-search.git&project-name=aipan-netdisk-search&repository-name=aipan-netdisk-search)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zxmlysxl/aipan-netdisk.git&project-name=aipan-netdisk&repository-name=aipan-netdisk)
 
  
 ### Docker执行，推荐使用docker compose
