@@ -35,12 +35,12 @@ const goDouban = (movie) => {
 };
 
 onMounted(async () => {
-  if (doubanCache.value === "aipan.me") {
+  if (doubanCache.value === "aipan.877955.xyz") {
     doubanData.value = doubanStore.doubanData;
   } else {
     await doubanStore.getDoubanData();
     doubanData.value = doubanStore.doubanData;
-    doubanCache.value = "aipan.me";
+    doubanCache.value = "aipan.877955.xyz";
   }
 });
 </script>
@@ -60,10 +60,10 @@ onMounted(async () => {
           <h1
             class="text-4xl text-gray-800 font-bold dark:text-white bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
           >
-            AIPAN.ME
+            aipan.877955.xyz
           </h1>
           <p class="text-gray-600 text-sm dark:text-gray-300 mt-2">
-            爱盼 - 资源随心，娱乐无限
+            蜗牛搜盘 - 资源随心，娱乐无限
           </p>
         </div>
       </div>

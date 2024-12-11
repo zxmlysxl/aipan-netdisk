@@ -123,7 +123,7 @@ const handleCopySongUrl = async (song) => {
       <h1
         class="text-[18px] sm:text-[22px] font-serif font-bold dark:text-white"
       >
-        爱盼-音乐搜索下载
+        蜗牛搜盘-音乐搜索下载
       </h1>
     </div>
 
@@ -164,7 +164,7 @@ const handleCopySongUrl = async (song) => {
         </div>
       </div>
       <div class="text-purple-500" v-if="searchLoading">
-        爱盼，正在努力搜索中...
+        蜗牛搜盘，正在努力搜索中...
       </div>
       <ul class="space-y-2">
         <li

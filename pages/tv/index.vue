@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "爱盼 - 电视直播与 Alist 数据源聚合播放",
+  title: "蜗牛搜盘 - 电视直播与 Alist 数据源聚合播放",
   meta: [
     { charset: "utf-8" },
     {
@@ -9,35 +9,35 @@ useHead({
     },
     {
       name: "keywords",
-      content: "爱盼, 电视直播, Alist 数据源, 聚合播放, 在线电视",
+      content: "蜗牛搜盘, 电视直播, Alist 数据源, 聚合播放, 在线电视",
     },
     {
       hid: "description",
       name: "description",
       content:
-        "爱盼提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！",
+        "蜗牛搜盘提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！",
     },
-    { name: "author", content: "爱盼团队" },
+    { name: "author", content: "蜗牛搜盘团队" },
     { name: "robots", content: "index, follow" },
     { name: "format-detection", content: "telephone=no" },
-    { property: "og:title", content: "爱盼 - 电视直播与 Alist 数据源聚合播放" },
+    { property: "og:title", content: "蜗牛搜盘 - 电视直播与 Alist 数据源聚合播放" },
     {
       property: "og:description",
       content:
-        "爱盼提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！",
+        "蜗牛搜盘提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！",
     },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://aipan.me/tv" }, // 动态获取当前页面的 URL
+    { property: "og:url", content: "https://aipan.877955.xyz/tv" }, // 动态获取当前页面的 URL
     { property: "og:image", content: "/logo.png" }, // 替换为适当的缩略图链接
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:title",
-      content: "爱盼 - 电视直播与 Alist 数据源聚合播放",
+      content: "蜗牛搜盘 - 电视直播与 Alist 数据源聚合播放",
     },
     {
       name: "twitter:description",
       content:
-        "爱盼提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！",
+        "蜗牛搜盘提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！",
     },
     { name: "twitter:image", content: "/logo.png" }, // 替换为适当的 Twitter 卡片图像链接
   ],
@@ -80,7 +80,7 @@ const isM3u8 = (url) => /\.m3u8(\?.*)?$/.test(url);
 // 获取视频源
 const getTvSources = async () => {
   try {
-    const res = await $fetch("https://r2cf.aipan.me/tv.json");
+    const res = await $fetch("https://r2cf.aipan.877955.xyz/tv.json");
     if (videoSrc.value === "") {
       videoSrc.value = res[0].url;
       // loadHLS(videoSrc.value);  // 初始化第一个视频源
