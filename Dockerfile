@@ -1,6 +1,6 @@
 # 构建阶段
 FROM node:20.18.0-alpine AS builder
-LABEL authors="Lei"
+LABEL authors="zxmlysxl"
 
 # 设置工作目录
 WORKDIR /app
