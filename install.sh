@@ -53,17 +53,17 @@ create_env_file() {
 
     # 管理员配置
     print_message "\nAdmin Configuration:" "${YELLOW}"
-    read -p "Admin User (default: aipan): " admin_user
-    admin_user=${admin_user:-aipan}
-    read -p "Admin Password (default: aipan): " admin_password
-    admin_password=${admin_password:-aipan}
-    read -p "Admin Email (default: aipan@email.com): " admin_email
-    admin_email=${admin_email:-aipan@email.com}
+    read -p "Admin User (default: zxmvps): " admin_user
+    admin_user=${admin_user:-zxmvps}
+    read -p "Admin Password (default: zxmvps.com): " admin_password
+    admin_password=${admin_password:-zxmvps.com}
+    read -p "Admin Email (default: admin@zxmvps.com): " admin_email
+    admin_email=${admin_email:-admin@zxmvps.com}
 
     # Github 配置
     print_message "\nGitHub Configuration:" "${YELLOW}"
-    read -p "GitHub Owner (default: unilei-github): " github_owner
-    github_owner=${github_owner:-unilei-github}
+    read -p "GitHub Owner (default: zxmlysxl-github): " github_owner
+    github_owner=${github_owner:-zxmlysxl-github}
     read -p "GitHub Repo (default: aipan-images): " github_repo
     github_repo=${github_repo:-aipan-images}
     read -p "GitHub Branch (default: main): " github_branch
