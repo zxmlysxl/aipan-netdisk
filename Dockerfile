@@ -6,7 +6,7 @@ LABEL authors="Lei"
 WORKDIR /app
 
 # 设置 Node.js 内存限制
-ENV NODE_OPTIONS="--max-old-space-size=8192"
+ENV NODE_OPTIONS="--max-old-space-size=4096"
 
 # 复制 package.json 和 lock 文件
 COPY package*.json ./
