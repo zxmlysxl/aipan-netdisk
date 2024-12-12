@@ -1,6 +1,6 @@
 # 构建阶段
 FROM node:20.18.0-alpine AS builder
-LABEL authors="zxmlysxl"
+LABEL authors="zuoxm"
 
 # 设置工作目录
 WORKDIR /app
@@ -32,7 +32,7 @@ RUN rm -rf node_modules && \
 
 # 生产阶段
 FROM node:20.18.0-alpine
-LABEL authors="Lei"
+LABEL authors="zuoxm"
 
 WORKDIR /app
 
