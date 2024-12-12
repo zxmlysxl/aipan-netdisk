@@ -73,8 +73,8 @@ create_env_file() {
 
     # JWT配置
     print_message "\nSecurity Configuration:" "${YELLOW}"
-    read -p "JWT Secret (default: aipan.me): " jwt_secret
-    jwt_secret=${jwt_secret:-aipan.me}
+    read -p "JWT Secret (default: zxmvps.com): " jwt_secret
+    jwt_secret=${jwt_secret:-zxmvps.com}
 
     # 创建 .env 文件
     cat > .env << EOL
