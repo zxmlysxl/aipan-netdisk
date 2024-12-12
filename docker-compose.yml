@@ -1,7 +1,7 @@
  services:
   aipan-netdisk:
     image: zuoxm/aipan-netdisk:latest # 如果你想从 Docker Hub 获取镜像，可以使用这一行
-    container_name: aipan-netdisk-app
+    container_name: aipan-netdisk
     restart: always # 确保容器在停止后自动重启
     build:
       context: . # 构建上下文，通常是 Dockerfile 所在的目录
